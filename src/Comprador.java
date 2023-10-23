@@ -6,9 +6,7 @@ public class Comprador {
 
     private String sabor;
 
-    public Comprador(Moneda moneda, Precios PR, Expendedor exp)
-
-            throws NoHayProductoException, PagoIncorrectoException, PagoInsuficienteException {
+    public Comprador(Moneda moneda, Precios PR, Expendedor exp) throws NoHayProductoException, PagoIncorrectoException, PagoInsuficienteException {
 
         Producto comprado = exp.comprarProducto(moneda,PR);
 
