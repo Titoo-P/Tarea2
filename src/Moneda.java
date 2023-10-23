@@ -11,7 +11,4 @@ abstract class Moneda{
 
     public abstract int getValor();
 
-    public String toString() {
-        return "$" + this.getValor();
-    }
 }
